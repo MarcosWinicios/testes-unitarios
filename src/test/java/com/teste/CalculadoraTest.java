@@ -1,6 +1,7 @@
 package com.teste;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
 
 import org.junit.Test;
 
@@ -12,5 +13,11 @@ public class CalculadoraTest {
 		int soma =  calc.somar("1+1+3");
 		assertEquals(5, soma);
 	}
+	
+	@Test
+	public void testeSomarComMock() {
+		Calculadora calculadora = mock(Calculadora.class)  ;
+	}
+
 
 }
