@@ -24,7 +24,7 @@ public class ExceptionTest {
 	public void empty() {
 		List<String> lista = new ArrayList<String>();
 		
-		lista.add("marcos");
+//		lista.add("marcos");
 		
 		lista.get(0);
 	}
